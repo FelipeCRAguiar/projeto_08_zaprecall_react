@@ -5,7 +5,7 @@ export default function Inicio(props) {
                 <img src="./assets/logo.png" />
             </div>
             <div>
-                <button onClick={props.mudarStatus}>Praticar React <img src="./assets/next.png"/></button>
+                <button onClick={props.mudarStatus} data-identifier="start-zap-recall">Praticar React <img src="./assets/next.png"/></button>
             </div>
         </div>
     )

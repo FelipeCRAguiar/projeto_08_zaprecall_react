@@ -32,11 +32,11 @@ export default function Carta(props) {
 
     return (
         <div class={classeCarta}>
-            <div class={classeFace}>
+            <div class={classeFace} data-identifier="flashcard">
                 <div class="contador">{props.index}/{props.tamanho}</div>
                 <div class="pergunta">{props.pergunta}</div>
                 <div class="passar">
-                    <button onClick={virarCarta}><img src="./assets/turn.png"/></button>
+                    <button onClick={virarCarta} data-identifier="arrow"><img src="./assets/turn.png"/></button>
                 </div>
             </div>
             <div class={classeVerso}>
@@ -52,7 +52,7 @@ export default function Carta(props) {
                     <div class="zap" onClick={zap}>Zap!</div>
                 </div>
                 <div class={classePassar}>
-                    <button onClick={props.passar}><img src="./assets/turn.png"/></button>
+                    <button onClick={props.passar} data-identifier="arrow"><img src="./assets/turn.png"/></button>
                 </div>
             </div>
         </div>

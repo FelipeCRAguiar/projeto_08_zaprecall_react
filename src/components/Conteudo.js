@@ -51,31 +51,24 @@ export default function Conteudo(props) {
         index += 1
     }
     function passar1(){
-        setCarta1("carta escondido")
         setCarta2("carta")
     }
     function passar2(){
-        setCarta2("carta escondido")
         setCarta3("carta")
     }
     function passar3(){
-        setCarta3("carta escondido")
         setCarta4("carta")
     }
     function passar4(){
-        setCarta4("carta escondido")
         setCarta5("carta")
     }
     function passar5(){
-        setCarta5("carta escondido")
         setCarta6("carta")
     }
     function passar6(){
-        setCarta6("carta escondido")
         setCarta7("carta")
     }
     function passar7(){
-        setCarta7("carta escondido")
         setCarta8("carta")
     }
     return (
